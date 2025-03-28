@@ -10,7 +10,6 @@ function handleClick() {
   const randomColor = getRandomHexColor();
   bodyEl.style.backgroundColor = randomColor;
   colorArea.innerHTML = randomColor;
-  console.log(randomColor);
 }
 button.addEventListener("click", handleClick);
 

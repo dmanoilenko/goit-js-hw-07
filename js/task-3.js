@@ -5,6 +5,6 @@ input.addEventListener("input", (event) => {
     if (userValue === "") {
         return userName.textContent = "Anonymous";
      }
-     return userName.innerHTML = userValue;    
+     return userName.textContent = userValue;    
 })
 
